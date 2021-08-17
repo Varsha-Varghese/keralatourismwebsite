@@ -1,0 +1,151 @@
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover; 
+}
+.mylogo{
+  margin-top: -30px;
+}
+
+#things{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:xx-large;
+  color: white;
+}
+* {box-sizing: border-box;}
+
+.container {
+
+  position: relative;
+  
+  display: inline;
+ 
+  
+  
+}
+
+.image {
+  /* display: block; */
+  width: 24%;
+  height: auto;
+  margin-left: 8px;
+}
+
+
+.overlay1 {
+  position: absolute; 
+  bottom: 0; 
+  margin-left: 8PX;
+  background: rgb(0, 0, 0);
+  background: rgba(231, 164, 38, 0.596); /* Black see-through */
+  color: #f1f1f1; 
+  width: 23.5%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+ .overlay2 {
+    position: absolute; 
+    bottom: 0; 
+    margin-left: 24.9%;
+    background: rgb(255, 255, 255);
+    background: rgba(27, 87, 52, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 23.5%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .overlay3 {
+    position: absolute; 
+    bottom: 0; 
+    margin-left: 49.4%;
+    background: rgb(255, 255, 255);
+    background: rgba(22, 139, 218, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 23.5%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .overlay4 {
+    position: absolute; 
+    bottom: 0; 
+    margin-left: 73.6%;
+    background: rgb(255, 255, 255);
+    background: rgba(73, 2, 2, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 23.5%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+.container:hover .overlay1{
+  opacity: 1;
+}
+.container:hover .overlay2 {
+    opacity: 1;
+  }
+  .container:hover .overlay3 {
+    opacity: 1;
+  }
+  .container:hover .overlay4 {
+    opacity: 1;
+  }
+  .explore{
+   margin-left: 45%;
+  }
+  .container2 {
+
+    position: relative;
+    width: 100%;
+    
+    
+    
+  }
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  li{
+   
+    display: inline;
+    
+}
+.list{
+  text-align: center;
+}
+footer{
+  color: white;
+  background-color: black;
+  height: 2em;
+  /* margin-top: 33%; */
+}
+footer h3{
+  text-align: center;
+}
+
+  
+  
+  
